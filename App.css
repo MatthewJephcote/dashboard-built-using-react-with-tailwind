@@ -1,0 +1,82 @@
+body {
+  background-color: #00001a;
+}
+.name-panel {
+ background-color: #9933ff;
+}
+.jeremy-photo {
+  width: 78.2px;
+}
+.frequency-menu {
+  background-color: #660066;
+  transform: translateY(-20px);
+}
+li :link {
+  color: #cc66ff;
+}
+.work-tab {
+  background-color: #ff9966;
+}
+.work-tab img {
+  transform: rotate(-2deg);
+}
+.play-tab {
+   background-color: #99ccff;
+}
+.play-tab img {
+  transform: rotate(-4deg);
+}
+.study-tab {
+  background-color: #ff0066;
+}
+.study-tab img {
+  transform: rotate(3deg);
+}
+.exercise-tab {
+  background-color: #ccff99;
+}
+.social-tab {
+  background-color: #6600ff;
+}
+.social-tab img {
+  transform:rotate(-1deg);
+}
+.self-care-tab {
+  background-color: #00ff99;
+}
+.self-care-tab img {
+  transform: rotate(1deg);
+}
+.activity-panel {
+  background-color: #660066;
+  transform: translateY(-20px);
+}
+p {
+   color:#cc99ff;
+}
+/*styles for mobile:*/
+@media (max-width: 1024px) {
+  li {
+  display: inline;
+  padding-left: 48px;
+  padding-right: 48px;
+  }
+}
+/*styles for desktop:*/
+@media (min-width: 1024px) {
+  .main-container {
+    width: 1044px;
+  }
+  .name-frequency {
+    height: 478.2px;
+  }
+  h1 {
+    padding-bottom: 49px;
+  }
+  .frequency-menu {
+    height: 478.2px;
+  }
+  .activity-tab img {
+    width: 26.5%;
+  }
+}
