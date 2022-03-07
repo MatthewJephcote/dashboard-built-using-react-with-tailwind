@@ -8,9 +8,9 @@ export const SocialTile = () => {
         <IconSocial />
       </div>
       <ActivityPanel
-        activityCategory = {"Social"}
-        thisWeekHours = {"5"}
-        lastWeekHours = {"10"} />
+        activityCategory={"Social"}
+        thisWeekHours={"5"}
+        lastWeekHours={"10"} />
     </div>
   );
 }

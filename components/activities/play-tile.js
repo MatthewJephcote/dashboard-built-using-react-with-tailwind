@@ -8,9 +8,9 @@ export const PlayTile = () => {
         <IconPlay />
       </div>
       <ActivityPanel
-        activityCategory = {"Play"}
-        thisWeekHours = {"10"}
-        lastWeekHours = {"8"} />
+        activityCategory={"Play"}
+        thisWeekHours={"10"}
+        lastWeekHours={"8"} />
     </div>
   );
 }

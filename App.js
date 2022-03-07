@@ -26,9 +26,9 @@ function App() {
           <div className="frequency-menu flex sm:py-8 lg:p-7 rounded-xl text-base z-0">
             <nav className="font-semibold pt-3">
               <ul>
-                <MenuLink url = {"#"} frequency= {"Daily"} />
-                <MenuLink url = {"#"} frequency= {"Weekly"} />
-                <MenuLink url = {"#"} frequency= {"Monthly"} />
+                <MenuLink url={"#"} frequency={"Daily"} />
+                <MenuLink url={"#"} frequency={"Weekly"} />
+                <MenuLink url={"#"} frequency={"Monthly"} />
               </ul>
             </nav>
           </div>

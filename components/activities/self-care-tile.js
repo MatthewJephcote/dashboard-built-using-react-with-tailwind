@@ -8,9 +8,9 @@ export const SelfCareTile = () => {
         <IconSelfCare />
       </div>
       <ActivityPanel
-        activityCategory = {"Self Care"}
-        thisWeekHours = {"2"}
-        lastWeekHours = {"2"} />
+        activityCategory={"Self Care"}
+        thisWeekHours={"2"}
+        lastWeekHours={"2"} />
     </div>
   );
 }
